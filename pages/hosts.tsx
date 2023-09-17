@@ -83,7 +83,7 @@ const memberList = [
        github: null,
     },
     {
-        name: "Milnui",
+        name: "Miluni",
         about: "Co-Host",
         rank: "minister",
         nation_title: "",
