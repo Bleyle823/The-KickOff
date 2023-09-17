@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.task-list-item::before {
+  @apply hidden;
+}
+
+.task-list-item {
+  @apply list-none;
+}
+
+.footnotes {
+  @apply mt-12 border-t border-gray-200 pt-8 dark:border-gray-700;
+}
+
+.data-footnote-backref {
+  @apply no-underline;
+}
+
+.csl-entry {
+  @apply my-5;
+}
+
+/* https://stackoverflow.com/questions/61083813/how-to-avoid-internal-autofill-selected-style-to-be-applied */
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+}
+
+
+
+.data__arrow{
+  color: #fff;
+  font-size: 12px;
+  position: absolute;
+  top: 30px;
+  right: -20px;
+}
+.data__arrow p {
+  @apply absolute text-gray-800 dark:text-gray-50 top-[40px] right-[-55px] w-[70px];
+  font-family: 'Rock Salt', cursive;
+}
+.data__arrow svg {
+  @apply fill-gray-800 dark:fill-gray-50 absolute text-gray-800 dark:text-gray-50 top-[10px] right-[-15px];
+  transform: rotateX(180deg) rotateZ(180deg);
+
+
+}
+
+
+/* .cls-1{fill:#e94546;}.cls-2{font-size:19px;fill:#313130;}.cls-2,.cls-5{font-family:HelveticaNeue-CondensedBold, Helvetica Neue;font-weight:700;}.cls-3,.cls-5{opacity:0.1;}.cls-4,.cls-5{fill:#060a10;}.cls-5{font-size:17.02px;} */
+.cls-1{fill:#e94546;}.cls-2{font-size:17px;fill:#313130;}.cls-2,.cls-5{font-family:HelveticaNeue-CondensedBold, Helvetica Neue;font-weight:700;}.cls-3,.cls-5{opacity:0.1;}.cls-4,.cls-5{fill:#060a10;}.cls-5{font-size:17.02px;}
