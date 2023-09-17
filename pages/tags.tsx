@@ -23,10 +23,10 @@ export default function Tags({ tags }: InferGetStaticPropsType<typeof getStaticP
       <div className="flex-col items-center justify-center">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
         <h1 className="opacity-[.04] sm:text-[130px] text-[80px] font-extrabold leading-9 text-gray-900 dark:text-gray-100 sm:leading-10 mb-14 md:leading-14">
-            TAGS 
+        COMING
           </h1>
           <h1 className="opacity-[.04] sm:text-[130px] text-[80px] font-extrabold leading-9 text-gray-900 dark:text-gray-100 sm:leading-10  md:leading-14">
-            COMING SOON
+             SOON
           </h1>
         </div>
         {/* <div className="flex max-w-lg mx-auto flex-wrap items-center justify-center"> 

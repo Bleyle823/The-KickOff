@@ -6,27 +6,93 @@ import Image from 'next/image'
 
 const memberList = [
     {
-        name: "Taric Ov",
-        about: "SE/Co-founder",
+        name: "Bleyle",
+        about: "Software Developer/Co-Host",
         rank: "minister",
-        nation_title: "The fitst citizen & the real Samurai",
-        img: "/static/images/me.jpeg",
-        linkedin: "https://linkedin.com/in/taricov",
-        twitter: "https://twitter.com/taric_ov",
-        facebook: "",
-        github: "https://github.com/taricov",
+        nation_title: "",
+        img: "/Bleyle-Avatar.jpg",
+        linkedin: "https://www.linkedin.com/in/bleyle-osewe-b899a4231/",
+        twitter: "#",
+        facebook: "#",
+       github: "https://github.com/Bleyle823",
     },
-    // {
-    //     name: "Bonnie Brown",
-    //     about: "CEO/Co-founder",
-    //     rank: "minister",
-    //     nation_title: "Just Employee - the Samurai Nation",
-    //     img: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png",
-    //     linkedin: "https://linkedin.com/in/taricov",
-    //     twitter: "https://twitter.com/taric_ov",
-    //     facebook: "https://www.facebook.com/taric_ov",
-    //     github: null,
-    // },
+     {
+         name: "Lawrence",
+         about: "CEO/Co-Host",
+         rank: "minister",
+         nation_title: "",
+         img: "/Lawrence-avatar.jpg",
+         linkedin: "#",
+         twitter: "#",
+         facebook: "#",
+        // github: null,
+     },
+     {
+        name: "Sean",
+        about: "Co-Host",
+        rank: "minister",
+        nation_title: "",
+        img: "/Sean-Avatar.jpg",
+        linkedin: "#",
+        twitter: "#",
+        facebook: "#",
+       github: null,
+    },
+    {
+        name: "Saruni",
+        about: "Co-Host",
+        rank: "minister",
+        nation_title: "",
+        img: "/Saruni-Avatar.jpg",
+        linkedin: "#",
+        twitter: "#",
+        facebook: "#",
+       github: null,
+    },
+    {
+        name: "Paul",
+        about: "Software Developer/Co-Host",
+        rank: "minister",
+        nation_title: "",
+        img: "/blank-Avatar.jpeg",
+        linkedin: "#",
+        twitter: "#",
+        facebook: "",
+       github: "https://github.com/NAKITARE00",
+    },
+    {
+        name: "Karl",
+        about: "Graphics Designer/Software Developer",
+        rank: "minister",
+        nation_title: "",
+        img: "/blank-Avatar.jpeg",
+        linkedin: "#",
+        twitter: "#",
+        facebook: "#",
+       github: null,
+    },
+    {
+        name: "Oscar",
+        about: "Support",
+        rank: "minister",
+        nation_title: "",
+        img: "/blank-Avatar.jpeg",
+        linkedin: "#",
+        twitter: "#",
+        facebook: "#",
+       github: null,
+    },
+    {
+        name: "Milnui",
+        about: "Co-Host",
+        rank: "minister",
+        nation_title: "",
+        img: "/blank-Avatar.jpeg",
+        linkedin: "#",
+        twitter: "#",
+        facebook: "#",
+       github: null,
+    },
 ]
 
 export default function Projects() {
@@ -38,8 +104,8 @@ export default function Projects() {
     <section className="bg-white dark:bg-gray-900">
   <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
       <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16">
-          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Our Nation</h2>
-          <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">This is just the board of members 👩‍👩‍👦‍👦 all those people who have been on the show or contributed to it 🏅 along side with their ranks/titles 'cuz they all belong to a nation ❤️ and they all citizens 😀</p>
+          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Our Team</h2>
+          <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">At The Kick-Off, we believe that the heart and soul of any great football podcast is the people behind the mic. Our team of hosts brings a diverse range of football knowledge, experiences, and personalities to the table. Get to know the faces and voices guiding you through the world of football:</p>
       </div> 
       <div className="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
          {

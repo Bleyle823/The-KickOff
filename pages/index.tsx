@@ -30,7 +30,7 @@ const newSub = (e) => {
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       {/* <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-180 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             Latest
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
@@ -57,7 +57,7 @@ const newSub = (e) => {
                           <h2 className="text-2xl font-bold leading-8 tracking-tight">
                             <Link
                               href={`/blog/${slug}`}
-                              className="text-gray-900 dark:text-gray-100"
+                              className="text-gray-900 dark:text-gray-180"
                             >
                               {title}
                             </Link>
@@ -135,6 +135,50 @@ const newSub = (e) => {
           So, whether you're a fan of the Premier League, La Liga, Serie A, or any other league across the globe, The Kick-Off is your one-stop-shop for all things football. Our passion for the game knows no bounds, and we can't wait to share it with you.
           
           </p>
+
+          <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+          <div className="grid gap-5 opacity-50   row-gap-3 sm:grid-cols-2 lg:grid-cols-5">
+            <div className="px-12 text-center sm:px-0">
+              <div className="flex items-center justify-center w-10 h-10 mx-auto mb-4 rounded-full  sm:w-12 sm:h-12">
+              <a href="https://instagram.com/thekickoffkepodcast/"><img src="Instagram1.png" width="180" height="180" /></a>
+              </div>
+             
+            </div>
+            <div className="px-12 text-center sm:px-0">
+              <div className="flex items-center justify-center w-10 h-10 mx-auto mb-4 rounded-full   sm:w-12 sm:h-12">
+              <a href="https://www.tiktok.com/@thekickoffkepodcast/"><img src="TikTok1.png" width="180" height="180" /></a>
+              </div>
+              
+            </div>
+            <div className="px-12 text-center sm:px-0">
+              <div className="flex items-center justify-center w-10 h-10 mx-auto mb-4 rounded-full  sm:w-12 sm:h-12">
+              <a href="https://x.com/thekickoffke1?s=11"><img src="Twitter1.png" width="180" height="180" /></a>
+              </div>
+              
+            </div>
+            <div className="px-12 text-center sm:px-0">
+              <div className="flex items-center justify-center w-10 h-10 mx-auto mb-4 rounded-full   sm:w-12 sm:h-12">
+              <a href="https://youtu.be/jsURdhL0flI?si=Qxus0WI15nBG_Ryi"><img src="Youtube1.png" width="180" height="180" /></a>
+              </div>
+             
+            </div>
+
+            <div className="px-12 text-center sm:px-0">
+              <div className="flex items-center justify-center w-10 h-10 mx-auto mb-4 rounded-full sm:w-12 sm:h-12">
+              <a href="https://open.spotify.com/show/692FNGJDjbGzZEMu7NTMHU?si=a8f80d7c07f64d7d"><img src="Spotify1.png" width="180" height="180" /></a>
+              </div>
+             
+            </div>
+
+            
+          </div>
+        </div>
+
+
+
+
+
+
           {/* <form id="sib-form" method="POST" action="https://361d419d.sibforms.com/serve/MUIEABXaQkiV366O1Vka55WJdEWbikyNzet4OESZXmFfi-1fmK4ehB1qVT5HTQJzUEpt1s6Be-Xe-AgjI11OUYdiEegPGxiStpLF7E9v-7_mhn30g7W-inLdgquVhj5wSBBlU6VeFbF6a24kbQ_9riSk1TbjIUVdGFrlUBaF0NZ31kvKSfRHr7hz4nncQHyNNVOrCNivhLTYBXtc"> 
               <div className="items-center mx-auto mb-3 space-y-4 max-w-screen-sm sm:flex sm:space-y-0">
                   <div className="relative w-full">
